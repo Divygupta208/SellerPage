@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #main{
@@ -32,47 +32,30 @@ h3{
     border-radius: 20px;
 }
 
-.Food div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #f2d8e2;
-    border: 3px solid #3b2a2e; 
-    padding: 5px;
-    border-radius: 6px;
-    display: grid;
-    gap: 4px;
- 
- }
-
- .Electronics div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #f2d8e2;
-    border: 3px solid #3b2a2e; 
-    padding: 5px;
-    border-radius: 6px;
-    display: grid;
-    gap: 4px;
- 
- }
-
- .SkinCare div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #f2d8e2;
-    border: 3px solid #3b2a2e; 
-    padding: 5px;
-    border-radius: 6px;
-    display: grid;
-    gap: 4px;
- 
- }
 
  .fa-solid:hover {
      
      transform: scale(1.5);
 
+ }
+
+ .productList div{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border : solid 2px black;
+    border-radius: 20px;
+    background-color: rgb(255, 243, 185);
+ }
+
+ button {
+    background-color: rgb(255, 141, 141);
+    border : solid 1px rgb(82, 82, 82);
+    border-radius: 20px;
+ }
+
+ button:hover{
+    cursor : pointer;
+    transform : scale(1.2)
  }
